@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ddafb81a-3dba-427e-92dd-816940290a76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/GoogleService-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Networking/Firebase/Authentication.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/ItunesArtwork@2x 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/AppIcon.appiconset/ItunesArtwork@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/banner_ball.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/banner_ball.imageset/banner_ball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/banner_clothes.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/banner_clothes.imageset/banner_clothes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/banner_main.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/banner_main.imageset/banner_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/banner_shoes.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/banner_shoes.imageset/banner_shoes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/category_ball.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/category_ball.imageset/category_ball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/category_clothes.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/category_clothes.imageset/category_clothes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/category_others.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/category_others.imageset/category_others.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/category_shoes.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/category_shoes.imageset/category_shoes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/default_profile_avatar.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/default_profile_avatar.imageset/default_profile_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/login_background.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/login_background.imageset/login_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/logo.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/logo.imageset/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/no_result_found.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/no_result_found.imageset/no_result_found.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/profile_background.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/profile_background.imageset/profile_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/register_background.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/register_background.imageset/register_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/splash_background.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/splash_background.imageset/splash_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/sport_equipment_placeholder.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/sport_equipment_placeholder.imageset/sport_equipment_placeholder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_add.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_add.imageset/ic_add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_bag.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_bag.imageset/ic_bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_check_box.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_check_box.imageset/ic_check_box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_check_box_outline.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_check_box_outline.imageset/ic_check_box_outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_clock.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_clock.imageset/ic_clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_close.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_close.imageset/ic_close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_done.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_done.imageset/ic_done.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_error.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_error.imageset/ic_error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_eye.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_eye.imageset/ic_eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_eye_off.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_eye_off.imageset/ic_eye_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_favorite_outlined.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_favorite_outlined.imageset/ic_favorite_outlined.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_heart.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_heart.imageset/ic_heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_image_default.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_image_default.imageset/ic_image_default.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_info_circle.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_info_circle.imageset/ic_info_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_noti_package_box.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_noti_package_box.imageset/ic_noti_package_box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_package.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_package.imageset/ic_package.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_pencil_line.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_pencil_line.imageset/ic_pencil_line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_phone.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_phone.imageset/ic_phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_phone_call.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_phone_call.imageset/ic_phone_call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_play_video.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_play_video.imageset/ic_play_video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_remove.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_remove.imageset/ic_remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_search.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_search.imageset/ic_search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_star.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_star.imageset/ic_star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_star_selected.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_star_selected.imageset/ic_star_selected.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_star_selected_2.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_star_selected_2.imageset/ic_star_selected_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_tick.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_tick.imageset/ic_tick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_trash.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_trash.imageset/ic_trash_simple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_upload.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_upload.imageset/ic_upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_upload_image.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_upload_image.imageset/ic_upload_image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_user_circle.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_user_circle.imageset/ic_user_circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_warning.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KinGSportswear/Resources/Assets.xcassets/Images/svg/ic_warning.imageset/ic_warning.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Application/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Application/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Application/Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Application/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Constants/Colors.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Constants/Constants.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Constants/Enum/EnumType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Controllers/Base/BaseNavigationVC.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Controllers/Base/BaseVC.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Controllers/Start/LoadingVC/LoadingVC.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Controllers/Start/LoadingVC/LoadingVC.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Controllers/Start/LoginVC/LoginVC.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Controllers/Start/LoginVC/LoginVC.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/Controller/UIAlertController+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/Controller/UIApplication+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/Controller/UIViewController+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/Numeric/Int+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/Other/Date+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/Other/UIColor+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/Other/UIFont+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/Text/AttributeString+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/Text/String+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UIButton+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UICollectionReusableView+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UICollectionView+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UICollectionViewCell+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UIImage+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UIImageView+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UILabel+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UIScrollView+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UITableView+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UITableViewCell+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UITableViewHeaderFooterView+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UITextField+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UITextView+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Extension/View/UIView+Extension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/Button/CheckBox.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/Button/GradientButton.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/Button/ShadowButton.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/CollectionView/BaseCollectionView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/ImageView/ColorImageView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/Layer/GradientLayer.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/ScrollView/KeyboardHandlerScrollView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/TableView/BaseTableView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/TextField/BorderTextField.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/TextField/InsetTextField.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/TextView/BaseTextView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/TextView/InsetTextView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/View/CustomNibView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/View/GradientView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/View/RoundedView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/View/ShadowView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/UI/View/TapActionView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Utils/FileManagerUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Utils/GeneralUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Utils/IndicatorViewer.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Utils/Picker/Core/BasePicker.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Utils/Picker/Core/DateTimePicker.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Utils/Picker/Core/DateTimePicker.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Utils/Picker/Core/TextPicker.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Utils/Picker/Core/TextPicker.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Utils/Picker/PickerViewer.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Utils/ScreenUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Utils/SystemUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Utils/Transition/CustomAnimation.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Libraries/Utils/Transition/CustomInteractor.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Models/Answer.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Models/DB/DB.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Models/Owner.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Models/SharedData/SharedData.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/API/AnswerListAPI.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/API/PostAnswerAPI.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/API/UploadAvatarAPI.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Config/APIError.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Config/APIRequest.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Config/APIResponse.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Dispatcher/APIDispatcher.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Dispatcher/APIDispatcherProtocol.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Enviroment/APIEnviromentProtocol.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Operation/APIOperation.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Operation/APIOperationProtocol.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Public/APIConfiguration.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Public/Enviroments/APIMainEnviroment.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Public/UI/APIUIAlert.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Public/UI/APIUIIndicator.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Support/APIExtension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Support/APIProcessingManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Networking/CoreNetwork/Support/APIUtilities.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Resources/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Resources/Fonts/Font.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Resources/Sounds/Sounds.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Resources/Strings/en.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Services/InAppPurchase/Core/IAPExecutor.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Services/InAppPurchase/IAPManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Services/InAppPurchase/Sample.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Services/Notification/NotificationService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Services/Permission/CameraPermission.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Services/Permission/NotificationPermission.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Services/Permission/PhotoPermission.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Services/Permission/RecordingPermission.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Services/SystemBoots.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/BaseMVC/Views/View/CustomView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Podfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/AFError.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/Alamofire.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/AlamofireExtended.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/AuthenticationInterceptor.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/CachedResponseHandler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/Combine.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/EventMonitor.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/HTTPHeaders.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/HTTPMethod.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/MultipartFormData.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/MultipartUpload.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/NetworkReachabilityManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/Notifications.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/OperationQueue+Alamofire.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/ParameterEncoder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/ParameterEncoding.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/Protected.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/RedirectHandler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/Request.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/RequestInterceptor.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/RequestTaskMap.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/Response.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/ResponseSerialization.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/Result+Alamofire.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/RetryPolicy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/ServerTrustEvaluation.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/Session.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/SessionDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/StringEncoding+Alamofire.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/URLEncodedFormEncoder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/URLRequest+Alamofire.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Alamofire/Source/Validation.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Cache/CacheSerializer.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Cache/DiskStorage.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Cache/FormatIndicatedCacheSerializer.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Cache/ImageCache.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Cache/MemoryStorage.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Cache/Storage.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Extensions/ImageView+Kingfisher.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Extensions/NSButton+Kingfisher.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Extensions/NSTextAttachment+Kingfisher.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Extensions/UIButton+Kingfisher.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Extensions/WKInterfaceImage+Kingfisher.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/General/Deprecated.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/General/ImageSource/AVAssetImageDataProvider.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/General/ImageSource/ImageDataProvider.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/General/ImageSource/Resource.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/General/ImageSource/Source.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/General/Kingfisher.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/General/KingfisherError.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/General/KingfisherManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/General/KingfisherOptionsInfo.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Image/Filter.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Image/GIFAnimatedImage.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Image/Image.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Image/ImageDrawing.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Image/ImageFormat.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Image/ImageProcessor.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Image/ImageProgressive.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Image/ImageTransition.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Image/Placeholder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Kingfisher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Networking/AuthenticationChallengeResponsable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Networking/ImageDataProcessor.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Networking/ImageDownloader.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Networking/ImageDownloaderDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Networking/ImageModifier.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Networking/ImagePrefetcher.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Networking/RedirectHandler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Networking/RequestModifier.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Networking/RetryStrategy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Networking/SessionDataTask.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Networking/SessionDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Utility/Box.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Utility/CallbackQueue.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Utility/Delegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Utility/ExtensionHelpers.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Utility/Result.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Utility/Runtime.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Utility/SizeExtensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Utility/String+MD5.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Views/AnimatedImageView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Kingfisher/Sources/Views/Indicator.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Manifest.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/angle-mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/angle-mask@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/angle-mask@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/error@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/error@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/info@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/info@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/success@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/success@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SwiftyJSON/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SwiftyJSON/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Alamofire/Alamofire-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Alamofire/Alamofire-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Alamofire/Alamofire.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Alamofire/Alamofire.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Alamofire/Alamofire.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Kingfisher/Kingfisher-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Kingfisher/Kingfisher-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Kingfisher/Kingfisher-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Kingfisher/Kingfisher.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Kingfisher/Kingfisher.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Kingfisher/Kingfisher.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Pods-BaseMVC/Pods-BaseMVC-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Pods-BaseMVC/Pods-BaseMVC-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Pods-BaseMVC/Pods-BaseMVC-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Pods-BaseMVC/Pods-BaseMVC-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Pods-BaseMVC/Pods-BaseMVC-frameworks-Debug-input-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Pods-BaseMVC/Pods-BaseMVC-frameworks-Debug-output-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Pods-BaseMVC/Pods-BaseMVC-frameworks-Release-input-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Pods-BaseMVC/Pods-BaseMVC-frameworks-Release-output-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Pods-BaseMVC/Pods-BaseMVC-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Pods-BaseMVC/Pods-BaseMVC-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Pods-BaseMVC/Pods-BaseMVC.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Pods-BaseMVC/Pods-BaseMVC.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/Pods-BaseMVC/Pods-BaseMVC.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaseMVC/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.release.xcconfig" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2hoD7M6noSrQrGvx9ziQYfBOP2Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/minhtq4/Desktop/ios_project/ios-swift-base/KinGSportswear&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ddafb81a-3dba-427e-92dd-816940290a76" name="Changes" comment="" />
+      <created>1718251369130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718251369130</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
