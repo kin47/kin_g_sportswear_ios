@@ -20,6 +20,7 @@ class CoreVC: UITabBarController {
         self.tabBar.barTintColor = .white
         self.tabBar.tintColor = .black
         self.tabBar.unselectedItemTintColor = .gray
+        self.navigationController?.navigationBar.isHidden = true
     }
     
     // MARK: tab setup

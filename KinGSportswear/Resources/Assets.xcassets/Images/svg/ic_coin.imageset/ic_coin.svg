@@ -1,0 +1,14 @@
+<svg id="coin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd0"/>
+      <stop offset="1" stop-color="#feb100"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffefb1"/>
+      <stop offset="1" stop-color="#ffffd4"/>
+    </linearGradient>
+  </defs>
+  <circle id="楕円形_43" data-name="楕円形 43" cx="10" cy="10" r="10" fill="url(#linear-gradient)"/>
+  <path id="パス_978" data-name="パス 978" d="M5.56,10.4a5,5,0,0,0,8.3,3.753,1,1,0,0,0-1.316-1.507,3,3,0,1,1,0-4.494,1,1,0,1,0,1.316-1.505A4.995,4.995,0,0,0,5.56,10.4" fill="url(#linear-gradient-2)"/>
+</svg>

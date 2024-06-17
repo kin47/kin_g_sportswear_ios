@@ -4,6 +4,7 @@ class ProfileVC: BaseVC {
 
     // MARK: - Outlets
 
+    @IBOutlet weak var scrollView: UIScrollView!
     
     // MARK: - Constraints
     
@@ -20,7 +21,12 @@ class ProfileVC: BaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        self.view.backgroundColor = .systemRed
+        // Disable automatic adjustment
+        if #available(iOS 11.0, *) {
+            scrollView.contentInsetAdjustmentBehavior = .never
+        } else {
+            self.automaticallyAdjustsScrollViewInsets = false
+        }
     }
     
     // MARK: - Setup

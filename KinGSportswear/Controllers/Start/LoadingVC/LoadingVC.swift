@@ -17,6 +17,8 @@ class LoadingVC: BaseVC {
     // MARK: - Constants
     
     // MARK: - Variables
+    var window: UIWindow?
+    var firebaseAuth: FirebaseAuthenticationProtocol = FirebaseAuthenticationImpl()
     
     // MARK: - Closures
     
@@ -39,14 +41,14 @@ class LoadingVC: BaseVC {
     
     // MARK: - Action
     private func requestApi() {
-        AnswerListAPI(order: "desc",
-                      sort: "activity",
-                      site: "stackoverflow").execute(target: self, success: { response in
-            print("Got list: \(response.answerList.count) elements")
+        let result = firebaseAuth.getUserInfo()
+        switch result {
+        case .success(let user):
+            let coreVC = CoreVC.create()
+            SystemBoots.instance.changeRoot(window: &window, rootController: coreVC)
+        case .failure(_):
             LoginVC.push()
-        }, failure: { error in
-            // Do nothing
-        })
+        }
     }
     
     // MARK: - Update UI
