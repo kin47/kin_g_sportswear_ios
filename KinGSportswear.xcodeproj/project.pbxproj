@@ -101,6 +101,8 @@
 		9524F78B221BF02800686CE7 /* UITableViewHeaderFooterView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524F78A221BF02800686CE7 /* UITableViewHeaderFooterView+Extension.swift */; };
 		95F7EACA22278DD6009AFA42 /* ScreenUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7EAC922278DD6009AFA42 /* ScreenUtils.swift */; };
 		95F7EACE22279372009AFA42 /* UICollectionReusableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7EACD22279372009AFA42 /* UICollectionReusableView+Extension.swift */; };
+		ABB0C4832C21D3CC0059AD02 /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB0C4822C21D3CC0059AD02 /* CartTableViewCell.xib */; };
+		ABB0C4842C21D3CC0059AD02 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0C4812C21D3CC0059AD02 /* CartTableViewCell.swift */; };
 		E00B3B8F21BADD6C0091B652 /* UploadAvatarAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00B3B8E21BADD6C0091B652 /* UploadAvatarAPI.swift */; };
 		E00B3B9621BAFA3B0091B652 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00B3B9421BAFA3B0091B652 /* LoginVC.swift */; };
 		E00B3B9921BAFA3B0091B652 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E00B3B9521BAFA3B0091B652 /* LoginVC.xib */; };
@@ -239,6 +241,8 @@
 		95F7EAC922278DD6009AFA42 /* ScreenUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenUtils.swift; sourceTree = "<group>"; };
 		95F7EACD22279372009AFA42 /* UICollectionReusableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionReusableView+Extension.swift"; sourceTree = "<group>"; };
 		AAF614BE6D611BDA731A7D71 /* Pods-KinGSportswear.production debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinGSportswear.production debug.xcconfig"; path = "Pods/Target Support Files/Pods-KinGSportswear/Pods-KinGSportswear.production debug.xcconfig"; sourceTree = "<group>"; };
+		ABB0C4812C21D3CC0059AD02 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		ABB0C4822C21D3CC0059AD02 /* CartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
 		C58CD037A5D7DA141F3522F1 /* Pods-Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Staging.release.xcconfig"; path = "Pods/Target Support Files/Pods-Staging/Pods-Staging.release.xcconfig"; sourceTree = "<group>"; };
 		E00B3B8E21BADD6C0091B652 /* UploadAvatarAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadAvatarAPI.swift; sourceTree = "<group>"; };
 		E00B3B9421BAFA3B0091B652 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -426,8 +430,8 @@
 				951EFAB1216C585A004A8C67 /* Libraries */,
 				951EFAB6216C58A1004A8C67 /* Constants */,
 				951EFA31216C3BAB004A8C67 /* Controllers */,
-				951EFA30216C3BA7004A8C67 /* Views */,
 				E073258E217F85CA006693D5 /* Models */,
+				951EFA30216C3BA7004A8C67 /* Views */,
 				D1AA390E21806CCA0010C6B2 /* Networking */,
 				951EFA2D216C3B93004A8C67 /* Resources */,
 			);
@@ -889,6 +893,8 @@
 			isa = PBXGroup;
 			children = (
 				951EFBD9216C6CA5004A8C67 /* CustomView.swift */,
+				ABB0C4812C21D3CC0059AD02 /* CartTableViewCell.swift */,
+				ABB0C4822C21D3CC0059AD02 /* CartTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1051,6 +1057,7 @@
 				2C2E0E712C182F3F00ACD0C0 /* roboto_thin.ttf in Resources */,
 				2C213F452C1A889D0070DD36 /* CartVC.xib in Resources */,
 				951EFAA5216C5272004A8C67 /* TextPicker.xib in Resources */,
+				ABB0C4832C21D3CC0059AD02 /* CartTableViewCell.xib in Resources */,
 				2C213F3F2C1A887A0070DD36 /* SearchVC.xib in Resources */,
 				2C2E0E662C18098000ACD0C0 /* RegisterVC.xib in Resources */,
 				9524F76A221B984000686CE7 /* LoadingVC.xib in Resources */,
@@ -1122,6 +1129,7 @@
 				9524F773221BBDE700686CE7 /* CameraPermission.swift in Sources */,
 				E0D525B3220DC9BF00ED97F3 /* APIOperation.swift in Sources */,
 				E039D18E21875C0B0002F582 /* PostAnswerAPI.swift in Sources */,
+				ABB0C4842C21D3CC0059AD02 /* CartTableViewCell.swift in Sources */,
 				E07C7D572183857400983608 /* IAPExecutor.swift in Sources */,
 				E0F96A91220EAAB200B7BEA9 /* CustomInteractor.swift in Sources */,
 				951EFB05216C5B17004A8C67 /* UIViewController+Extension.swift in Sources */,
