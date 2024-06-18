@@ -23,6 +23,11 @@ class CoreVC: UITabBarController {
         self.navigationController?.navigationBar.isHidden = true
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.isHidden = true
+    }
+    
     // MARK: tab setup
     private func setupTabs() {
         let home  = createNav(title: "Home", image: UIImage(systemName: "house.fill")!, vc: HomeVC())

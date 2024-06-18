@@ -3,7 +3,6 @@ import UIKit
 class ProfileVC: BaseVC {
 
     // MARK: - Outlets
-
     @IBOutlet weak var scrollView: UIScrollView!
     
     // MARK: - Constraints
@@ -21,11 +20,15 @@ class ProfileVC: BaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        // Disable automatic adjustment
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.isHidden = true
         if #available(iOS 11.0, *) {
             scrollView.contentInsetAdjustmentBehavior = .never
         } else {
-            self.automaticallyAdjustsScrollViewInsets = false
+            automaticallyAdjustsScrollViewInsets = false
         }
     }
     
