@@ -2,9 +2,9 @@ import UIKit
 
 class CartVC: BaseVC {
     // MARK: - Outlets
-
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var checkoutSummaryContaner: UIView!
+    
     // MARK: - Constraints
     
     // MARK: - Constants
