@@ -1,6 +1,6 @@
 import UIKit
 
-class HomeVC: BaseVC {
+class ProductListVC: BaseVC {
 
     // MARK: - Outlets
 
@@ -34,5 +34,5 @@ class HomeVC: BaseVC {
     // MARK: - Update UI
     
     // MARK: - Supporting methods
-    
+
 }

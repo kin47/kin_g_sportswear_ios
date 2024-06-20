@@ -28,7 +28,7 @@ class UserModel {
         self.email = data["email"] as? String ?? ""
         self.password = data["password"] as? String ?? ""
         self.isAdmin = data["is_admin"] as? Bool ?? false
-        self.avatar = data["avatar"] as? String ?? ""
+        self.avatar = data["avatar"] as? String
         self.address = data["address"] as? String ?? ""
         self.coins = data["coins"] as? Double ?? 0
     }

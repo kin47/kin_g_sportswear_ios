@@ -29,7 +29,14 @@
 		2C8F5E492C1AAF84004C7527 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8F5E482C1AAF84004C7527 /* FirebaseAnalyticsSwift */; };
 		2C8F5E4B2C1AAF84004C7527 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8F5E4A2C1AAF84004C7527 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		2C8F5E4D2C1AAF84004C7527 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8F5E4C2C1AAF84004C7527 /* FirebaseAppCheck */; };
-		2C8F5E512C1AE00C004C7527 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F5E502C1AE00C004C7527 /* Authentication.swift */; };
+		2C8F5E512C1AE00C004C7527 /* AuthenticationImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F5E502C1AE00C004C7527 /* AuthenticationImpl.swift */; };
+		2C909B2E2C23D58800FC290C /* ProductListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C909B2D2C23D58800FC290C /* ProductListVC.xib */; };
+		2C909B2F2C23D58800FC290C /* ProductListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C909B2C2C23D58800FC290C /* ProductListVC.swift */; };
+		2C909B312C23D8E000FC290C /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C909B302C23D8E000FC290C /* Cart.swift */; };
+		2C909B332C23D8EA00FC290C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C909B322C23D8EA00FC290C /* Product.swift */; };
+		2C909B352C23DE1700FC290C /* CartProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C909B342C23DE1700FC290C /* CartProtocol.swift */; };
+		2C909B372C23DF7100FC290C /* CartImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C909B362C23DF7100FC290C /* CartImpl.swift */; };
+		2C909B392C24352900FC290C /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C909B382C24352900FC290C /* Double+Extension.swift */; };
 		2CA921642C227BD400DD0AF2 /* AuthenticationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA921632C227BD400DD0AF2 /* AuthenticationProtocol.swift */; };
 		2CA9216C2C22939300DD0AF2 /* UserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA9216B2C22939300DD0AF2 /* UserProtocol.swift */; };
 		2CA9216E2C22942400DD0AF2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA9216D2C22942400DD0AF2 /* UserModel.swift */; };
@@ -163,7 +170,14 @@
 		2C2E0E6B2C182F3F00ACD0C0 /* roboto_thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = roboto_thin.ttf; sourceTree = "<group>"; };
 		2C2E0E6C2C182F3F00ACD0C0 /* roboto_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = roboto_bold.ttf; sourceTree = "<group>"; };
 		2C8F5E3F2C1AAACA004C7527 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2C8F5E502C1AE00C004C7527 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		2C8F5E502C1AE00C004C7527 /* AuthenticationImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationImpl.swift; sourceTree = "<group>"; };
+		2C909B2C2C23D58800FC290C /* ProductListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListVC.swift; sourceTree = "<group>"; };
+		2C909B2D2C23D58800FC290C /* ProductListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListVC.xib; sourceTree = "<group>"; };
+		2C909B302C23D8E000FC290C /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		2C909B322C23D8EA00FC290C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		2C909B342C23DE1700FC290C /* CartProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CartProtocol.swift; path = KinGSportswear/Models/CartProtocol.swift; sourceTree = SOURCE_ROOT; };
+		2C909B362C23DF7100FC290C /* CartImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CartImpl.swift; path = KinGSportswear/Models/CartImpl.swift; sourceTree = SOURCE_ROOT; };
+		2C909B382C24352900FC290C /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		2CA921632C227BD400DD0AF2 /* AuthenticationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationProtocol.swift; sourceTree = "<group>"; };
 		2CA9216B2C22939300DD0AF2 /* UserProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProtocol.swift; sourceTree = "<group>"; };
 		2CA9216D2C22942400DD0AF2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -331,6 +345,15 @@
 			path = Firebase;
 			sourceTree = "<group>";
 		};
+		2C909B2B2C23D55500FC290C /* ProductListVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C909B2C2C23D58800FC290C /* ProductListVC.swift */,
+				2C909B2D2C23D58800FC290C /* ProductListVC.xib */,
+			);
+			path = ProductListVC;
+			sourceTree = "<group>";
+		};
 		2CA921612C2276F800DD0AF2 /* CartTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,7 +366,7 @@
 		2CA921622C227BA700DD0AF2 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				2C8F5E502C1AE00C004C7527 /* Authentication.swift */,
+				2C8F5E502C1AE00C004C7527 /* AuthenticationImpl.swift */,
 				2CA921632C227BD400DD0AF2 /* AuthenticationProtocol.swift */,
 			);
 			path = Authentication;
@@ -373,6 +396,8 @@
 		2CA921672C2292D400DD0AF2 /* Cart */ = {
 			isa = PBXGroup;
 			children = (
+				2C909B342C23DE1700FC290C /* CartProtocol.swift */,
+				2C909B362C23DF7100FC290C /* CartImpl.swift */,
 			);
 			path = Cart;
 			sourceTree = "<group>";
@@ -768,6 +793,7 @@
 			isa = PBXGroup;
 			children = (
 				951EFB16216C5F12004A8C67 /* Int+Extension.swift */,
+				2C909B382C24352900FC290C /* Double+Extension.swift */,
 			);
 			path = Numeric;
 			sourceTree = "<group>";
@@ -783,6 +809,7 @@
 		951EFB48216C6647004A8C67 /* Start */ = {
 			isa = PBXGroup;
 			children = (
+				2C909B2B2C23D55500FC290C /* ProductListVC */,
 				2CC1E4C92C19B95600EE92F4 /* ProfileVC */,
 				2CC1E4C82C19B94700EE92F4 /* CartVC */,
 				2CC1E4C72C19B94000EE92F4 /* SearchVC */,
@@ -959,6 +986,8 @@
 				E0732593217F85F8006693D5 /* Owner.swift */,
 				E073258F217F85E7006693D5 /* Answer.swift */,
 				2CA9216D2C22942400DD0AF2 /* UserModel.swift */,
+				2C909B302C23D8E000FC290C /* Cart.swift */,
+				2C909B322C23D8EA00FC290C /* Product.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1139,6 +1168,7 @@
 				2C2E0E712C182F3F00ACD0C0 /* roboto_thin.ttf in Resources */,
 				2C213F452C1A889D0070DD36 /* CartVC.xib in Resources */,
 				951EFAA5216C5272004A8C67 /* TextPicker.xib in Resources */,
+				2C909B2E2C23D58800FC290C /* ProductListVC.xib in Resources */,
 				ABB0C4832C21D3CC0059AD02 /* CartTableViewCell.xib in Resources */,
 				2C213F3F2C1A887A0070DD36 /* SearchVC.xib in Resources */,
 				2C2E0E662C18098000ACD0C0 /* RegisterVC.xib in Resources */,
@@ -1197,6 +1227,7 @@
 				E0732590217F85E7006693D5 /* Answer.swift in Sources */,
 				951EFAF3216C5A50004A8C67 /* UIView+Extension.swift in Sources */,
 				9524F78B221BF02800686CE7 /* UITableViewHeaderFooterView+Extension.swift in Sources */,
+				2C909B392C24352900FC290C /* Double+Extension.swift in Sources */,
 				951EFAED216C5A50004A8C67 /* UIButton+Extension.swift in Sources */,
 				951EFAEA216C5A50004A8C67 /* UIImageView+Extension.swift in Sources */,
 				951EFAA2216C5272004A8C67 /* BasePicker.swift in Sources */,
@@ -1210,6 +1241,7 @@
 				E0D525CC220DCB9800ED97F3 /* APIExtension.swift in Sources */,
 				9524F773221BBDE700686CE7 /* CameraPermission.swift in Sources */,
 				E0D525B3220DC9BF00ED97F3 /* APIOperation.swift in Sources */,
+				2C909B352C23DE1700FC290C /* CartProtocol.swift in Sources */,
 				2CA9216E2C22942400DD0AF2 /* UserModel.swift in Sources */,
 				E039D18E21875C0B0002F582 /* PostAnswerAPI.swift in Sources */,
 				ABB0C4842C21D3CC0059AD02 /* CartTableViewCell.swift in Sources */,
@@ -1258,11 +1290,13 @@
 				951EFB67216C697E004A8C67 /* BaseTextView.swift in Sources */,
 				951EFB1B216C5F43004A8C67 /* GeneralUtils.swift in Sources */,
 				E0D52593220DC98300ED97F3 /* APIUIIndicator.swift in Sources */,
-				2C8F5E512C1AE00C004C7527 /* Authentication.swift in Sources */,
+				2C8F5E512C1AE00C004C7527 /* AuthenticationImpl.swift in Sources */,
 				951EFB08216C5B17004A8C67 /* UIAlertController+Extension.swift in Sources */,
+				2C909B312C23D8E000FC290C /* Cart.swift in Sources */,
 				951EFB24216C5F73004A8C67 /* Constants.swift in Sources */,
 				E0D525B0220DC9BF00ED97F3 /* APIOperationProtocol.swift in Sources */,
 				2CA921702C22986800DD0AF2 /* UserImpl.swift in Sources */,
+				2C909B372C23DF7100FC290C /* CartImpl.swift in Sources */,
 				951EFB28216C6062004A8C67 /* ErrorsEnum.swift in Sources */,
 				951EFB6C216C69B3004A8C67 /* InsetTextField.swift in Sources */,
 				951EFAC1216C5928004A8C67 /* PickerViewer.swift in Sources */,
@@ -1272,6 +1306,7 @@
 				951EFA4B216C4564004A8C67 /* Font.swift in Sources */,
 				E0DC10B22182157300A6739F /* AnswerListAPI.swift in Sources */,
 				E0F96A8E220EAAB200B7BEA9 /* CustomAnimation.swift in Sources */,
+				2C909B2F2C23D58800FC290C /* ProductListVC.swift in Sources */,
 				951EFBC9216C6C1D004A8C67 /* CustomNibView.swift in Sources */,
 				2C213F492C1A88B00070DD36 /* ProfileVC.swift in Sources */,
 				E0DC10A5218204F400A6739F /* DB.swift in Sources */,
@@ -1291,6 +1326,7 @@
 				951EFBBD216C6B8E004A8C67 /* KeyboardHandlerScrollView.swift in Sources */,
 				E0F96AAD220F38A500B7BEA9 /* BaseCollectionView.swift in Sources */,
 				951EFBAF216C6ACD004A8C67 /* BaseTableView.swift in Sources */,
+				2C909B332C23D8EA00FC290C /* Product.swift in Sources */,
 				9524F77B221BBEDF00686CE7 /* RecordingPermission.swift in Sources */,
 				E0DC10C3218233EA00A6739F /* Colors.swift in Sources */,
 				E00B3B9621BAFA3B0091B652 /* LoginVC.swift in Sources */,

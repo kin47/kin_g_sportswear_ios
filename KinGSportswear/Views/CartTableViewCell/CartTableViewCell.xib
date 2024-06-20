@@ -131,6 +131,16 @@
                     <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </userDefinedRuntimeAttribute>
             </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="cartItemImage" destination="gEl-to-Cad" id="For-Jj-nRC"/>
+                <outlet property="cartItemProductName" destination="g3C-0v-PLg" id="5ev-Xf-SbD"/>
+                <outlet property="cartItemProductPrize" destination="f8o-iB-nsA" id="Qth-We-f0b"/>
+                <outlet property="cartItemQuantity" destination="ZpR-kL-8L9" id="YvE-AM-PYu"/>
+                <outlet property="cartItemSize" destination="K0p-8e-Gxp" id="HEu-0f-036"/>
+                <outlet property="decreaseIcon" destination="ynA-NK-56b" id="0D3-hl-WiI"/>
+                <outlet property="deleteIcon" destination="9Az-rq-tft" id="kVI-nj-7Zf"/>
+                <outlet property="increaseIcon" destination="IGx-ld-KNt" id="NSJ-Tk-YB2"/>
+            </connections>
             <point key="canvasLocation" x="81.679389312977094" y="52.112676056338032"/>
         </tableViewCell>
     </objects>
