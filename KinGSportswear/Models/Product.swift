@@ -18,4 +18,14 @@ class Product {
         self.createdAt = createdAt
         self.sold = sold
     }
+    
+    init(data: [String: Any]) {
+        self.name = data["name"] as? String ?? ""
+        self.description = data["description"] as? String ?? ""
+        self.image = data["image"] as? [String] ?? []
+        self.price = data["price"] as? Double ?? 0
+        self.categoryId = data["category_id"] as? [String] ?? []
+        self.createdAt = data["created_at"] as? Date ?? Date.now
+        self.sold = data["sold"] as? Int ?? 0
+    }
 }

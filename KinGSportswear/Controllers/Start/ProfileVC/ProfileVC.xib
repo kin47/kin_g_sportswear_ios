@@ -200,15 +200,14 @@
                                                     </constraints>
                                                 </view>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_vietnam" translatesAutoresizingMaskIntoConstraints="NO" id="XEj-bb-Baq">
-                                                    <rect key="frame" x="16" y="5" width="40" height="40"/>
+                                                    <rect key="frame" x="16" y="7" width="36" height="36"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="40" id="BF2-xZ-XAe"/>
-                                                        <constraint firstAttribute="width" constant="40" id="ij0-41-zPc"/>
+                                                        <constraint firstAttribute="width" constant="36" id="ij0-41-zPc"/>
                                                         <constraint firstAttribute="width" secondItem="XEj-bb-Baq" secondAttribute="height" multiplier="1:1" id="nJq-HC-j8m"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vietnamese" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8C-cs-F71">
-                                                    <rect key="frame" x="64" y="14.999999999999998" width="318" height="20.333333333333329"/>
+                                                    <rect key="frame" x="60" y="14.999999999999998" width="322" height="20.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -227,15 +226,14 @@
                                                     </constraints>
                                                 </view>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_english" translatesAutoresizingMaskIntoConstraints="NO" id="EQy-HB-Zek">
-                                                    <rect key="frame" x="16" y="5" width="40" height="40"/>
+                                                    <rect key="frame" x="16" y="7" width="36" height="36"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="40" id="Zjz-Td-g2C"/>
-                                                        <constraint firstAttribute="height" constant="40" id="s4f-18-09Y"/>
+                                                        <constraint firstAttribute="width" constant="36" id="Zjz-Td-g2C"/>
                                                         <constraint firstAttribute="width" secondItem="EQy-HB-Zek" secondAttribute="height" multiplier="1:1" id="xdN-th-J1k"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvo-SY-au7">
-                                                    <rect key="frame" x="64" y="14.999999999999998" width="318" height="20.333333333333329"/>
+                                                    <rect key="frame" x="60" y="14.999999999999998" width="322" height="20.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>

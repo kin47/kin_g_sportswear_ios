@@ -3,7 +3,8 @@ import UIKit
 class SearchVC: BaseVC {
 
     // MARK: - Outlets
-    
+    @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var searchButton: UIButton!
     
     // MARK: - Constraints
     
@@ -30,6 +31,12 @@ class SearchVC: BaseVC {
     // MARK: - Data management
     
     // MARK: - Action
+    @IBAction func onSearch(_ sender: UIButton) {
+        let productListVC = ProductListVC.create()
+        productListVC.hidesBottomBarWhenPushed = true
+        productListVC.searchTitle = searchBar.text
+        navigationController?.pushViewController(productListVC, animated: true)
+    }
     
     // MARK: - Update UI
     

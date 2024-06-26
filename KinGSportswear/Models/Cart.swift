@@ -19,13 +19,7 @@ class Cart: Product {
         self.size = data["size"] as? String ?? ""
         self.userEmail = data["userEmail"] as? String ?? ""
         self.quantity = data["quantity"] as? Int ?? 0
-        super.init(name: data["name"] as? String ?? "",
-                   description: data["description"] as? String ?? "",
-                   image: data["image"] as? [String] ?? [],
-                   price: data["price"] as? Double ?? 0,
-                   categoryId: data["category_id"] as? [String] ?? [],
-                   createdAt: data["created_at"] as? Date ?? Date.now,
-                   sold: data["sold"] as? Int ?? 0)
+        super.init(data: data)
     }
     
     func toData() -> [String: Any] {
