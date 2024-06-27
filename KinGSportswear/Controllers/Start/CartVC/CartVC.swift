@@ -41,6 +41,7 @@ class CartVC: BaseVC {
     // MARK: - Data management
     private func getCartItems() {
         Task {
+            IndicatorViewer.show()
             let firebaseUserRes = firebaseAuth.getUserInfo()
             switch firebaseUserRes {
             case .success(let firebaseUser):
@@ -71,6 +72,7 @@ class CartVC: BaseVC {
                 // show the alert
                 self.present(alert, animated: true, completion: nil)
             }
+            IndicatorViewer.hide()
         }
     }
     

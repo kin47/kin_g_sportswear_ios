@@ -45,10 +45,11 @@ class RegisterVC: BaseVC {
             self.present(alert, animated: true, completion: nil)
             return
         }
-        Task { @MainActor in
+        Task {
+            IndicatorViewer.show()
             let result = await firebaseAuth.signUpWithEmailAndPassword(email: emailTextField.text ?? "", password: passwordTextField.text ?? "")
             switch result {
-            case .success(let success):
+            case .success(_):
                 let coreVC = CoreVC.create()
                 SystemBoots.instance.changeRoot(window: &window, rootController: coreVC)
             case .failure(_):
@@ -59,6 +60,7 @@ class RegisterVC: BaseVC {
                 // show the alert
                 self.present(alert, animated: true, completion: nil)
             }
+            IndicatorViewer.hide()
         }
     }
     // MARK: - Update UI

@@ -48,6 +48,7 @@ class ProfileVC: BaseVC {
     // MARK: - Data management
     private func getUserInfo() {
         Task {
+            IndicatorViewer.show()
             let firebaseUserRes = firebaseAuth.getUserInfo()
             switch firebaseUserRes {
             case .success(let firebaseUser):
@@ -77,6 +78,7 @@ class ProfileVC: BaseVC {
                 // show the alert
                 self.present(alert, animated: true, completion: nil)
             }
+            IndicatorViewer.hide()
         }
     }
     

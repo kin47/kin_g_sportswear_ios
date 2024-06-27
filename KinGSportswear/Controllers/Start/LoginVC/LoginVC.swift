@@ -37,10 +37,11 @@ class LoginVC: BaseVC {
     
     // MARK: - Action
     @IBAction func login(_ sender: UIButton) {
-        Task { @MainActor in
+        Task {
+            IndicatorViewer.show()
             let result = await firebaseAuth.signInWithEmailAndPassword(email: emailTextField.text ?? "", password: passwordTextField.text ?? "")
             switch result {
-            case .success(let success):
+            case .success(_):
                 let coreVC = CoreVC.create()
                 SystemBoots.instance.changeRoot(window: &window, rootController: coreVC)
             case .failure(_):
@@ -51,6 +52,7 @@ class LoginVC: BaseVC {
                 // show the alert
                 self.present(alert, animated: true, completion: nil)
             }
+            IndicatorViewer.hide()
         }
     }
     

@@ -57,6 +57,7 @@ class ProductListVC: BaseVC {
     // MARK: - Data management
     private func getProducts() {
         Task {
+            IndicatorViewer.show()
             let res = await productDb.getProducts(searchKey: searchTitle, category: nil)
             switch res {
             case .success(let products):
@@ -70,6 +71,7 @@ class ProductListVC: BaseVC {
                 // show the alert
                 self.present(alert, animated: true, completion: nil)
             }
+            IndicatorViewer.hide()
         }
     }
     
