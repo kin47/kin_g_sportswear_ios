@@ -12,6 +12,7 @@ class ProductListVC: BaseVC {
     
     // MARK: - Variables
     var searchTitle: String?
+    var searchCategory: String?
     var firebaseAuth: FirebaseAuthenticationProtocol = FirebaseAuthenticationImpl()
     var productDb: ProductProtocol = ProductImpl()
     var products: [Product] = []
@@ -24,9 +25,14 @@ class ProductListVC: BaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        getProducts()
+        if products.isEmpty {
+            getProducts()
+        }
         if searchTitle != nil && !(searchTitle!.isEmpty) {
             appBarTitle.text = self.searchTitle
+        }
+        if searchCategory != nil && !(searchCategory!.isEmpty) {
+            appBarTitle.text = self.searchCategory?.capitalized
         }
     }
     
@@ -58,7 +64,7 @@ class ProductListVC: BaseVC {
     private func getProducts() {
         Task {
             IndicatorViewer.show()
-            let res = await productDb.getProducts(searchKey: searchTitle, category: nil)
+            let res = await productDb.getProducts(searchKey: searchTitle, category: searchCategory)
             switch res {
             case .success(let products):
                 self.products = products
@@ -99,5 +105,12 @@ extension ProductListVC: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "product_cv_cell", for: indexPath) as! ProductCollectionViewCell
         cell.configure(product: products[indexPath.row])
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        let productDetailVC = ProductDetailVC.create()
+        productDetailVC.product = products[indexPath.row]
+        productDetailVC.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(productDetailVC, animated: true)
     }
 }

@@ -5,12 +5,14 @@ class ProductImpl: ProductProtocol {
     
     func getProducts(searchKey: String?, category: String?) async -> Result<[Product], any Error> {
         do {
-            var query = db.collection("product")
+            let query = db.collection("product")
+            var snapshot: QuerySnapshot?
             if let category {
-                query = query.whereField("category_id", arrayContains: category) as! CollectionReference
+                snapshot = try await query.whereField("category_id", arrayContains: category).getDocuments()
+            } else {
+                snapshot = try await query.getDocuments()
             }
-            let snapshot = try await query.getDocuments()
-            let data = snapshot.documents;
+            let data = snapshot!.documents;
             var products: [Product] = []
             for item in data {
                 if searchKey != nil && !searchKey!.isEmpty {

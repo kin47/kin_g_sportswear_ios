@@ -6,6 +6,8 @@ class HomeVC: BaseVC {
     @IBOutlet weak var categoryHCV: UICollectionView!
     @IBOutlet weak var newCollectionHCV: UICollectionView!
     @IBOutlet weak var bestSellerHCV: UICollectionView!
+    @IBOutlet weak var seeAllNewCollection: UIButton!
+    @IBOutlet weak var seeAllBestSeller: UIButton!
     
     // MARK: - Constraints
     
@@ -75,8 +77,6 @@ class HomeVC: BaseVC {
     }
     
     // MARK: - Data management
-    
-    // MARK: - Action
     private func getUserInfo() {
         Task {
             IndicatorViewer.show()
@@ -148,6 +148,23 @@ class HomeVC: BaseVC {
         }
     }
     
+    // MARK: - Action
+    @IBAction func goToNewCollections(_ sender: UIButton) {
+        let productListVC = ProductListVC.create()
+        productListVC.hidesBottomBarWhenPushed = true
+        productListVC.searchTitle = "New Collection"
+        productListVC.products = newCollection
+        navigationController?.pushViewController(productListVC, animated: true)
+    }
+    
+    @IBAction func goToBestSeller(_ sender: Any) {
+        let productListVC = ProductListVC.create()
+        productListVC.hidesBottomBarWhenPushed = true
+        productListVC.searchTitle = "Best Seller"
+        productListVC.products = bestSeller
+        navigationController?.pushViewController(productListVC, animated: true)
+    }
+    
     // MARK: - Update UI
     
     // MARK: - Supporting methods
@@ -184,6 +201,19 @@ extension HomeVC: UICollectionViewDataSource {
         default:
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "best_seller_cv_cell", for: indexPath) as! ProductCollectionViewCell
             return cell
+        }
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        switch collectionView {
+        case self.categoryHCV:
+            let productListVC = ProductListVC.create()
+            productListVC.hidesBottomBarWhenPushed = true
+            productListVC.searchCategory = categories[indexPath.row]
+            navigationController?.pushViewController(productListVC, animated: true)
+            break
+        default:
+            break
         }
     }
 }
