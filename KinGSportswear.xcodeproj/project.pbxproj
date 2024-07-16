@@ -123,6 +123,8 @@
 		9524F78B221BF02800686CE7 /* UITableViewHeaderFooterView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524F78A221BF02800686CE7 /* UITableViewHeaderFooterView+Extension.swift */; };
 		95F7EACA22278DD6009AFA42 /* ScreenUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7EAC922278DD6009AFA42 /* ScreenUtils.swift */; };
 		95F7EACE22279372009AFA42 /* UICollectionReusableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7EACD22279372009AFA42 /* UICollectionReusableView+Extension.swift */; };
+		AB4123302C4027760031D860 /* ImageContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB41232E2C4027760031D860 /* ImageContentVC.swift */; };
+		AB4123312C4027760031D860 /* ImageContentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB41232F2C4027760031D860 /* ImageContentVC.xib */; };
 		ABB0C4832C21D3CC0059AD02 /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB0C4822C21D3CC0059AD02 /* CartTableViewCell.xib */; };
 		ABB0C4842C21D3CC0059AD02 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0C4812C21D3CC0059AD02 /* CartTableViewCell.swift */; };
 		E00B3B8F21BADD6C0091B652 /* UploadAvatarAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00B3B8E21BADD6C0091B652 /* UploadAvatarAPI.swift */; };
@@ -283,6 +285,8 @@
 		95F7EAC922278DD6009AFA42 /* ScreenUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenUtils.swift; sourceTree = "<group>"; };
 		95F7EACD22279372009AFA42 /* UICollectionReusableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionReusableView+Extension.swift"; sourceTree = "<group>"; };
 		AAF614BE6D611BDA731A7D71 /* Pods-KinGSportswear.production debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinGSportswear.production debug.xcconfig"; path = "Pods/Target Support Files/Pods-KinGSportswear/Pods-KinGSportswear.production debug.xcconfig"; sourceTree = "<group>"; };
+		AB41232E2C4027760031D860 /* ImageContentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContentVC.swift; sourceTree = "<group>"; };
+		AB41232F2C4027760031D860 /* ImageContentVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageContentVC.xib; sourceTree = "<group>"; };
 		ABB0C4812C21D3CC0059AD02 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
 		ABB0C4822C21D3CC0059AD02 /* CartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
 		C58CD037A5D7DA141F3522F1 /* Pods-Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Staging.release.xcconfig"; path = "Pods/Target Support Files/Pods-Staging/Pods-Staging.release.xcconfig"; sourceTree = "<group>"; };
@@ -508,6 +512,7 @@
 		2CD459012C2E74A000DE0AC5 /* ProductDetailVC */ = {
 			isa = PBXGroup;
 			children = (
+				AB41232D2C4027320031D860 /* ImageContentVC */,
 				2CD459022C2E74BE00DE0AC5 /* ProductDetailVC.swift */,
 				2CD459032C2E74BE00DE0AC5 /* ProductDetailVC.xib */,
 			);
@@ -638,8 +643,17 @@
 		951EFA31216C3BAB004A8C67 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2CD459012C2E74A000DE0AC5 /* ProductDetailVC */,
+				2C909B2B2C23D55500FC290C /* ProductListVC */,
+				2CC1E4C92C19B95600EE92F4 /* ProfileVC */,
+				2CC1E4C82C19B94700EE92F4 /* CartVC */,
+				2CC1E4C72C19B94000EE92F4 /* SearchVC */,
+				2CC1E4C62C19B93400EE92F4 /* HomeVC */,
+				2CC1E4BD2C199B9600EE92F4 /* CoreVC */,
+				2C2E0E642C18095C00ACD0C0 /* RegisterVC */,
+				9524F767221B981200686CE7 /* LoadingVC */,
+				E00B3B9221BAFA0D0091B652 /* LoginVC */,
 				951EFB51216C6671004A8C67 /* Base */,
-				951EFB48216C6647004A8C67 /* Start */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -855,23 +869,6 @@
 			path = Enum;
 			sourceTree = "<group>";
 		};
-		951EFB48216C6647004A8C67 /* Start */ = {
-			isa = PBXGroup;
-			children = (
-				2CD459012C2E74A000DE0AC5 /* ProductDetailVC */,
-				2C909B2B2C23D55500FC290C /* ProductListVC */,
-				2CC1E4C92C19B95600EE92F4 /* ProfileVC */,
-				2CC1E4C82C19B94700EE92F4 /* CartVC */,
-				2CC1E4C72C19B94000EE92F4 /* SearchVC */,
-				2CC1E4C62C19B93400EE92F4 /* HomeVC */,
-				2CC1E4BD2C199B9600EE92F4 /* CoreVC */,
-				2C2E0E642C18095C00ACD0C0 /* RegisterVC */,
-				9524F767221B981200686CE7 /* LoadingVC */,
-				E00B3B9221BAFA0D0091B652 /* LoginVC */,
-			);
-			path = Start;
-			sourceTree = "<group>";
-		};
 		951EFB51216C6671004A8C67 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -997,6 +994,15 @@
 				951EFB36216C622D004A8C67 /* NotificationService.swift */,
 			);
 			path = Notification;
+			sourceTree = "<group>";
+		};
+		AB41232D2C4027320031D860 /* ImageContentVC */ = {
+			isa = PBXGroup;
+			children = (
+				AB41232E2C4027760031D860 /* ImageContentVC.swift */,
+				AB41232F2C4027760031D860 /* ImageContentVC.xib */,
+			);
+			path = ImageContentVC;
 			sourceTree = "<group>";
 		};
 		D1AA390E21806CCA0010C6B2 /* Networking */ = {
@@ -1220,6 +1226,7 @@
 				2C2E0E712C182F3F00ACD0C0 /* roboto_thin.ttf in Resources */,
 				2C213F452C1A889D0070DD36 /* CartVC.xib in Resources */,
 				2CB766E62C2D488F004D760A /* CategoryCell.xib in Resources */,
+				AB4123312C4027760031D860 /* ImageContentVC.xib in Resources */,
 				951EFAA5216C5272004A8C67 /* TextPicker.xib in Resources */,
 				2C909B2E2C23D58800FC290C /* ProductListVC.xib in Resources */,
 				2CB41ACA2C2569E6008E9A38 /* ProductCollectionViewCell.xib in Resources */,
@@ -1334,6 +1341,7 @@
 				95F7EACA22278DD6009AFA42 /* ScreenUtils.swift in Sources */,
 				E0F96AA9220F369000B7BEA9 /* UICollectionView+Extension.swift in Sources */,
 				E0732594217F85F8006693D5 /* Owner.swift in Sources */,
+				AB4123302C4027760031D860 /* ImageContentVC.swift in Sources */,
 				E0D525AB220DC9B000ED97F3 /* APIDispatcherProtocol.swift in Sources */,
 				951EFADF216C59EC004A8C67 /* UIColor+Extension.swift in Sources */,
 				9524F76D221B984000686CE7 /* LoadingVC.swift in Sources */,
@@ -1542,8 +1550,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = VM7X7PQ3TE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VB97HJ7KA;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/KinGSportswear/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -1553,7 +1562,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.KinGSportswear;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = RikkeiSoft_iOS_Development;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PRODUCTION;
 				SWIFT_OBJC_BRIDGING_HEADER = "KinGSportswear/Application/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1568,8 +1577,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = VM7X7PQ3TE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VB97HJ7KA;
 				INFOPLIST_FILE = "$(SRCROOT)/KinGSportswear/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1578,7 +1588,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.KinGSportswear;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = RikkeiSoft_iOS_Development;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PRODUCTION;
 				SWIFT_OBJC_BRIDGING_HEADER = "KinGSportswear/Application/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -1654,8 +1664,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = VM7X7PQ3TE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VB97HJ7KA;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/KinGSportswear/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -1665,7 +1676,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.KinGSportswear;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = RikkeiSoft_iOS_Development;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STAGING;
 				SWIFT_OBJC_BRIDGING_HEADER = "KinGSportswear/Application/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1736,8 +1747,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = VM7X7PQ3TE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VB97HJ7KA;
 				INFOPLIST_FILE = "$(SRCROOT)/KinGSportswear/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1746,7 +1758,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.KinGSportswear;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = RikkeiSoft_iOS_Development;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STAGING;
 				SWIFT_OBJC_BRIDGING_HEADER = "KinGSportswear/Application/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

@@ -13,9 +13,12 @@
             <connections>
                 <outlet property="appBarTitle" destination="tzp-0x-skP" id="MHG-Aq-9nN"/>
                 <outlet property="descriptionLabel" destination="OXT-b8-74x" id="hgZ-nE-p3h"/>
+                <outlet property="pageIndicator" destination="tKX-IH-tXP" id="QKD-ha-viD"/>
+                <outlet property="pageViewHolder" destination="vjN-eA-Zd0" id="jHb-BW-cUk"/>
                 <outlet property="priceLabel" destination="xiX-X1-ABq" id="dAh-1v-gy4"/>
                 <outlet property="productCategoryLabel" destination="8Pi-Jf-4EG" id="ai5-O4-HK5"/>
                 <outlet property="productNameLabel" destination="tzp-0x-skP" id="jnp-ks-p9k"/>
+                <outlet property="selectSizeButton" destination="lwA-RP-REZ" id="yyq-dR-fQO"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -56,10 +59,10 @@
                     </constraints>
                 </view>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UJx-yd-Zez">
-                    <rect key="frame" x="0.0" y="120.66666666666669" width="409.33333333333331" height="731.33333333333348"/>
+                    <rect key="frame" x="0.0" y="120.66666666666669" width="409.33333333333331" height="731.33333333333326"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q11-Kg-MbT" userLabel="ContentView">
-                            <rect key="frame" x="0.0" y="0.0" width="409.33333333333331" height="902.66666666666663"/>
+                            <rect key="frame" x="0.0" y="0.0" width="409.33333333333331" height="936.33333333333337"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vjN-eA-Zd0" userLabel="GalleryImagePageView">
                                     <rect key="frame" x="0.0" y="0.0" width="409.33333333333331" height="300"/>
@@ -68,12 +71,19 @@
                                         <constraint firstAttribute="height" constant="300" id="LGK-EB-oYF"/>
                                     </constraints>
                                 </view>
+                                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="tKX-IH-tXP">
+                                    <rect key="frame" x="147" y="316" width="115.66666666666669" height="25.666666666666686"/>
+                                    <color key="pageIndicatorTintColor" systemColor="systemGrayColor"/>
+                                    <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </pageControl>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="5vO-IN-1bi" userLabel="ProductNameRow">
-                                    <rect key="frame" x="16" y="316" width="377.33333333333331" height="49"/>
+                                    <rect key="frame" x="16" y="349.66666666666663" width="377.33333333333331" height="49"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tzp-0x-skP">
-                                            <rect key="frame" x="0.0" y="0.0" width="155" height="49"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzp-0x-skP">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="49"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="300" id="fOp-hP-16y"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -88,13 +98,13 @@
                                     </subviews>
                                 </stackView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pi-Jf-4EG">
-                                    <rect key="frame" x="16" y="373" width="134.66666666666666" height="20.333333333333314"/>
+                                    <rect key="frame" x="16" y="406.66666666666669" width="134.66666666666666" height="20.333333333333314"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="1Kz-8Q-Cww" userLabel="PriceRow">
-                                    <rect key="frame" x="16" y="409.33333333333331" width="73" height="24"/>
+                                    <rect key="frame" x="16" y="442.99999999999994" width="73" height="24"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xiX-X1-ABq">
                                             <rect key="frame" x="0.0" y="0.0" width="45" height="24"/>
@@ -112,20 +122,20 @@
                                     </subviews>
                                 </stackView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3r3-kt-Btv">
-                                    <rect key="frame" x="16" y="449.33333333333331" width="108" height="25.333333333333314"/>
+                                    <rect key="frame" x="16" y="482.99999999999994" width="108" height="25.333333333333314"/>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXT-b8-74x">
-                                    <rect key="frame" x="16" y="490.66666666666674" width="377.33333333333331" height="264"/>
+                                    <rect key="frame" x="16" y="524.33333333333337" width="377.33333333333331" height="264"/>
                                     <string key="text">Khám phá sức hút và vẻ đẹp của bóng Adidas Champions League - biểu tượng của giải đấu danh giá nhất châu Âu. Với thiết kế đặc trưng và logo độc đáo của Champions League, bóng này không chỉ là một công cụ thi đấu mà còn là biểu tượng của niềm tự hào và quyết tâm chiến thắng. Chất liệu cao cấp và công nghệ tiên tiến giúp bóng giữ được độ bóng và độ đàn hồi tối ưu, mang lại trải nghiệm chơi bóng tuyệt vời cho mọi cầu thủ. Đừng bỏ lỡ cơ hội sở hữu một chiếc bóng mang tính biểu tượng của Champions League để tạo nên những khoảnh khắc đáng nhớ trên sân cỏ.</string>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwA-RP-REZ">
-                                    <rect key="frame" x="16" y="778.66666666666674" width="377.33333333333331" height="44"/>
+                                    <rect key="frame" x="16" y="812.33333333333337" width="377.33333333333331" height="44"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="44" id="Hji-jH-vn7"/>
                                     </constraints>
@@ -135,9 +145,12 @@
                                         <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <action selector="onTapSelectSize:" destination="-1" eventType="touchUpInside" id="at5-Eh-qFg"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqi-XR-hSW">
-                                    <rect key="frame" x="16" y="838.66666666666674" width="377.33333333333331" height="44"/>
+                                    <rect key="frame" x="16" y="872.33333333333337" width="377.33333333333331" height="44"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="44" id="uzt-uh-TJy"/>
                                     </constraints>
@@ -164,21 +177,23 @@
                                 <constraint firstItem="OXT-b8-74x" firstAttribute="top" secondItem="3r3-kt-Btv" secondAttribute="bottom" constant="16" id="PxN-JF-SxT"/>
                                 <constraint firstItem="lwA-RP-REZ" firstAttribute="leading" secondItem="Q11-Kg-MbT" secondAttribute="leading" constant="16" id="Qa1-yZ-X7R"/>
                                 <constraint firstItem="vqi-XR-hSW" firstAttribute="top" secondItem="lwA-RP-REZ" secondAttribute="bottom" constant="16" id="RyE-U2-TGI"/>
+                                <constraint firstItem="tKX-IH-tXP" firstAttribute="top" secondItem="vjN-eA-Zd0" secondAttribute="bottom" constant="16" id="WHL-hV-5si"/>
                                 <constraint firstAttribute="trailing" secondItem="OXT-b8-74x" secondAttribute="trailing" constant="16" id="aPa-IN-VsO"/>
                                 <constraint firstAttribute="trailing" secondItem="lwA-RP-REZ" secondAttribute="trailing" constant="16" id="d8j-bS-hPM"/>
                                 <constraint firstAttribute="trailing" secondItem="vqi-XR-hSW" secondAttribute="trailing" constant="16" id="fw8-7k-RyC"/>
                                 <constraint firstItem="3r3-kt-Btv" firstAttribute="leading" secondItem="Q11-Kg-MbT" secondAttribute="leading" constant="16" id="h2A-jM-UX9"/>
+                                <constraint firstItem="tKX-IH-tXP" firstAttribute="centerX" secondItem="Q11-Kg-MbT" secondAttribute="centerX" id="hGA-su-7lq"/>
                                 <constraint firstItem="8Pi-Jf-4EG" firstAttribute="leading" secondItem="Q11-Kg-MbT" secondAttribute="leading" constant="16" id="hXZ-oZ-ywD"/>
                                 <constraint firstItem="8Pi-Jf-4EG" firstAttribute="top" secondItem="5vO-IN-1bi" secondAttribute="bottom" constant="8" id="n6i-Ps-ttU"/>
                                 <constraint firstItem="1Kz-8Q-Cww" firstAttribute="leading" secondItem="Q11-Kg-MbT" secondAttribute="leading" constant="16" id="pzt-P8-6Sy"/>
                                 <constraint firstItem="vjN-eA-Zd0" firstAttribute="leading" secondItem="Q11-Kg-MbT" secondAttribute="leading" id="tR8-pK-tNW"/>
                                 <constraint firstAttribute="bottom" secondItem="vqi-XR-hSW" secondAttribute="bottom" constant="20" id="tl4-bT-dKl"/>
-                                <constraint firstItem="5vO-IN-1bi" firstAttribute="top" secondItem="vjN-eA-Zd0" secondAttribute="bottom" constant="16" id="xP5-Qz-ayc"/>
+                                <constraint firstItem="5vO-IN-1bi" firstAttribute="top" secondItem="tKX-IH-tXP" secondAttribute="bottom" constant="8" id="xP5-Qz-ayc"/>
                             </constraints>
                         </view>
                     </subviews>
                     <viewLayoutGuide key="safeArea" id="FY3-CN-hNG"/>
-                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" systemColor="systemGray6Color"/>
                     <constraints>
                         <constraint firstItem="XGN-RE-qbx" firstAttribute="bottom" secondItem="Q11-Kg-MbT" secondAttribute="bottom" id="DcX-S5-Wql"/>
                         <constraint firstItem="Q11-Kg-MbT" firstAttribute="width" secondItem="xfM-uU-8WL" secondAttribute="width" id="DvL-Pm-wZR"/>
@@ -214,13 +229,16 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

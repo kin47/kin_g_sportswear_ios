@@ -212,6 +212,18 @@ extension HomeVC: UICollectionViewDataSource {
             productListVC.searchCategory = categories[indexPath.row]
             navigationController?.pushViewController(productListVC, animated: true)
             break
+        case self.newCollectionHCV:
+            let productDetailVC = ProductDetailVC.create()
+            productDetailVC.hidesBottomBarWhenPushed = true
+            productDetailVC.product = newCollection[indexPath.row]
+            navigationController?.pushViewController(productDetailVC, animated: true)
+            break
+        case self.bestSellerHCV:
+            let productDetailVC = ProductDetailVC.create()
+            productDetailVC.hidesBottomBarWhenPushed = true
+            productDetailVC.product = bestSeller[indexPath.row]
+            navigationController?.pushViewController(productDetailVC, animated: true)
+            break
         default:
             break
         }

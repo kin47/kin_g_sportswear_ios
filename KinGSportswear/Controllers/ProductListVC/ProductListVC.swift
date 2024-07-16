@@ -107,7 +107,7 @@ extension ProductListVC: UICollectionViewDataSource {
         return cell
     }
     
-    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let productDetailVC = ProductDetailVC.create()
         productDetailVC.product = products[indexPath.row]
         productDetailVC.hidesBottomBarWhenPushed = true
